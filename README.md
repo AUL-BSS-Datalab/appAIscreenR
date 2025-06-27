@@ -5,7 +5,7 @@ only the AIscreenR-model which is a screening tool for systematic reviewing. See
 
 
 ## Features:
-- Data Upload: Upload data files in various formats for processing.
+- *Data Upload*: Upload data files in various formats for processing.
 - Run AIscreenR AI Model: Execute the AI model AIscreenR with user-defined inputs such as API keys and prompts.
 - Interactive Results Overview: Explore the model’s output using interactive tables.
 - Save & Download: Save and download results in multiple file formats.
