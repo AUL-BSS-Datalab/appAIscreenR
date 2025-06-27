@@ -8,7 +8,7 @@ only the AIscreenR-model which is a screening tool for systematic reviewing. See
 - **Data Upload**: Upload data files in various formats for processing.
 - **Run AIscreenR AI Model**: Execute the AI model AIscreenR with user-defined inputs such as API keys and prompts.
 - **Interactive Results Overview**: Explore the model’s output using interactive tables.
-- **Save & Download**: Save and download results in multiple file formats.
+- **Save & Download**: Save and download results in various file formats, including the option to download the AI’s included and excluded article data as an RIS file.
 - **Modular Design**: Built using reusable UI and server modules for easy maintenance.
 
 #### The overview tab:
@@ -16,9 +16,9 @@ The overview tab contains different datatable that can be chosen:
 
 - **Dataframe of differences**: A table showing the articles where the AI's decision differs from the human decision
 - **Answer Data**: A combined dataset containg the original input along with both the AI's and the human's inclusion/exclusion decisions
-- **Price Data**: The cost of running the AI-model
+- **Price Data**: An estimate of the cost associated with running the AI model (based on tokens used)
 - **Result object**: 
-- **Performance Data**: How good the model performs
+- **Performance Data**: A summary of how well the model performed, including accuracy precision, recall, p-agreement
 - **Confusion Matrix**: A table of numbers showing how often the AI model agrees or disagrees with the human decisions for example, how many times they both included an item, both excluded it, or disagreed. 
 
 
