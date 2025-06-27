@@ -59,7 +59,7 @@ uploadDataServer <- function(id) {
     return(list(
       included = included_data,
       excluded = excluded_data,
-      sample = sample_data1,
+      sample = merged_data,
       merged = merged_data
     ))
   })
