@@ -12,3 +12,10 @@ only the AIscreenR-model which is a screening tool for systematic reviewing. See
 - **Modular Design**: Built using reusable UI and server modules for easy maintenance.
 
 
+#### How to run the app
+1. Open R or Rstudio
+3. Run the following line to load and start the app directly from GitHub
+
+```r
+shiny::runGitHub("appAIscreenR", ""AUL-BSS-Datalab"")
+```
